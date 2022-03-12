@@ -8,7 +8,7 @@ int main()
 
     scanf("%d",&n);
 
-    while(fibo<n)
+    while(count<n)
     {
         if(count<=1)
         {
