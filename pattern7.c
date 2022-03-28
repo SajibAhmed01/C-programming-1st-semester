@@ -11,9 +11,8 @@ int main ()
     {
         for(collum=1;collum<=row;collum++)
         {
-            printf("% d ",row%2);
+            printf("% c ",row+64);
         }
-
         printf("\n");
     }
 
