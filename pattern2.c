@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main ()
+int main()
 {
     int number,row,collum;
 
@@ -11,7 +11,7 @@ int main ()
     {
         for(collum=1;collum<=row;collum++)
         {
-            printf("% d ",row%2);
+            printf(" %d ",row);
         }
 
         printf("\n");
